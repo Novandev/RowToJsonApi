@@ -1,0 +1,17 @@
+certifi==2018.10.15
+Click==7.0
+colorama==0.3.7
+Flask==1.0.2
+gunicorn==19.9.0
+ItsDangerous==1.0.0
+Jinja2==2.10
+MarkupSafe==1.0
+numpy==1.15.2
+pandas==0.23.4
+pyasn1==0.4.2
+python-dateutil==2.7.3
+pytz==2018.5
+rsa==3.4.2
+six==1.11.0
+trackml==3.dev0
+Werkzeug==0.14.1
