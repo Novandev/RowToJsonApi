@@ -13,5 +13,4 @@ python-dateutil==2.7.3
 pytz==2018.5
 rsa==3.4.2
 six==1.11.0
-trackml==3.dev0
 Werkzeug==0.14.1
