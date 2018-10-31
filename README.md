@@ -1,14 +1,20 @@
 
 # Row To JSON
 
-One Paragraph of project description goes here
+Row To Json is a JSON API that does the following
+- Accepts a post request with the body being a CSV file
+- Processes said CSV file and extracts just the columns that contains numerical(continuous) data
+- From the columns that contain numerical data, it drops any and all null or NAN values.
+- Returns a JSON file that contains the descriptive statitics of the numerical columns
 
 ## Getting Started
 
-To run this project clone the repository, start a virtal environment using conda or mvenv and run the following command:
+To run this project clone the repository, start a virtual environment using conda or mvenv (or any virtual environment for python) and run the following command:
 ```
 python3 app.py
 ```
+This will start a server on your system that wull allow you to perform a post request to obtain your statistics
+
 
 ### Prerequisites
 
@@ -18,19 +24,13 @@ Python3
 
 ## Deployment
 
-Add additional notes about how to deploy this on a live system
+This API can be used in any stack as it is publicly availible and returns JSON
 
 ## Built With
 
-* [Flask](http://flask.pocoo.org/) - The web framework used
-* [Pandas](https://pandas.pydata.org/) - Dependency Management
+* [Flask](http://flask.pocoo.org/) - Python Web framework 
+* [Pandas](https://pandas.pydata.org/) - For access to process and transform numerical data in a csv file
 
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
 
 
 
