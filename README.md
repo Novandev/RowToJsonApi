@@ -13,7 +13,8 @@ To run this project clone the repository, start a virtual environment using cond
 ```
 python3 app.py
 ```
-This will start a server on your system that wull allow you to perform a post request to obtain your statistics
+This will start a server on your system that wull allow you to perform a post request to obtain your statistics on port 5000
+
 
 The next step is to post a file, which can be done in a variety of programming languages
 
