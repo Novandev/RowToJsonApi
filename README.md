@@ -15,6 +15,13 @@ python3 app.py
 ```
 This will start a server on your system that wull allow you to perform a post request to obtain your statistics
 
+The next step is to post a file, which can be done in a variety of programming languages
+
+### Curl
+```
+curl -F "file=@titanic.csv" -X POST http://localhost:5000/api
+```
+
 
 ### Prerequisites
 
